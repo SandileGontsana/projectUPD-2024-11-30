@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name ="viewport" content ="with=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/Logo.svg" type="image/png">
+         <title>Ithemba Teacher Development Centre</title>                                                                           
+         <link rel = "stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.csshttps://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+        </head>                                                                          
+<body>
+ 
+     <nav>
+    <a href="index.html"><img src="images/Logo.png"></a>
+         <div class="nav-links" id="navLinks">
+             <i class="fa fa-times" onclick="hideMenu()"></i>
+         <ul>
+             <li><a href="index.html">HOME</a></li>
+             <li><a href="About.html">ABOUT</a></li>
+             <li><a href="Services.html">SERVICES</a></li>
+             <li><a href="Blog.html">BLOG</a></li>
+             <li><a href="Contact.html">CONTACT</a></li>
+             </ul>
+         
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav> 
+    <section class = "sub-header">                                            
+  <h1>Contact Us</h1>                                    
+ </section>
+    
+  <!------- Contact Us ------->   
+
+   <section class="location">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3570.645580798732!2d29.96358687542514!3d-26.49935407689593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1eebef003f1fb197%3A0x1d636f73db318b70!2sIthemba%20Teachers%20Centre%20DTDC(%20Education%20Department)!5e0!3m2!1sen!2sza!4v1727776800052!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    </section>
+        
+    <section class="contact-us">
+    
+        <div class="row">
+        <div class="contact-col">
+            <div>
+         <a href="#" class="fa fa-home"></a>  
+            <span>
+            <h5>2460 Thanjekwayo Street</h5>
+                <p>South Africa, Ermelo, Wesselton</p>
+            </span>
+            </div>
+            <div>
+         <a href="#" class="fa fa-phone"></a>  
+            <span>
+            <h5>012 384 4223</h5>
+                <p>Monday to Friday, 8AM to 4PM</p>
+            </span>
+            </div>
+            <div>
+                <a href="#" class="fa fa-envelope"></a>  
+            <span>
+            <h5>ithembadtdc@gmail.com</h5>
+                <p>Email us your query</p>
+            </span>
+            </div>
+            <dotlottie-player src="https://lottie.host/355dbf47-e38c-4ae7-b913-43013753d9d5/TY9isQHWsK.lottie" background="transparent" speed="1" style="width: 250px; height: 200px" loop autoplay></dotlottie-player>
+    
+           </div>
+
+           
+ 
+        <div class="contact-col">
+        
+         <form action="Form-Handler.php" method="post">
+             
+              <h3>Make a booking</h3>
+             <input type="text" name="name" placeholder="Enter your name" required>
+             <input type="email" name="email" placeholder="Enter your email" required>
+             <input type="text" name="subject" placeholder="Enter your subject" required>
+             <textarea rows="8" name="message"placeholder="Message" required></textarea>
+             <button type="submit" class="hero-btn red-btn">Confirm booking</button>
+             
+            </form>
+            
+          </div>  
+            
+        
+    
+    </section>
+    
+
+        
+        
+    <!------- Footer -------> 
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>We are a center that prides itself in delivering quality and professional services</p>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            
+</head>
+<body>
+
+
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-linkedin"></a>
+
+        </section>
+
+<!-------JavaScipt for Toggle Menu ------->
+  <script>
+        var navLinks = document.getElementById("navLinks");
+     function   showMenu(){
+         navLinks.style.right ="0";
+     }
+       
+      function   hideMenu(){
+         navLinks.style.right ="-200px";
+     }
+        
+        </script>                                                                 
+</body>        
+</html>
